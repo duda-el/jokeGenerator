@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #fab22e;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    background-color: #15161a;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.smile{
+    width: 80px;
+    height: 80px;
+    background-image: url(smile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+#joke{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#btn{
+    width: 200px;
+    height: 45px;
+    background-color: #fab22e;
+    color: #15161a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
